@@ -1,0 +1,27 @@
+@import 'bourbon/bourbon';
+@import 'susy/susy';
+@import '../partials/variables';
+@import '../partials/mixins';
+@import '../partials/layout';
+
+$susy:(
+     container:1200px,
+);
+
+body{
+    font-family: $primary-font;
+    color: $text;
+    background: $background;
+}
+
+a{
+    color: $link;
+}
+
+img, embed, object, video, svg {
+	max-width: 100%;
+}
+
+.container{
+    @include container();
+}

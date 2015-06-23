@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,800,700,600,300);
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  background: #f7f7f7; }
+
+a {
+  color: #333; }
+
+img, embed, object, video, svg {
+  max-width: 100%; }
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
